@@ -14,6 +14,6 @@ Product.destroy_all
     name: Faker::Commerce.product_name,
     price: Faker::Commerce.price.to_i,
     stock: Faker::Commerce.promotion_code,
-    photo: "http://lorempixel.com/400/200/technics/#{i + 1}/"
+    photo: "https://picsum.photos/id/#{i+6}/500/500"
   )
 end
